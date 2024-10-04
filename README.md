@@ -1,4 +1,4 @@
-# microsoft-authenticator-pump
+# microsoft-authenticator-dump
 
 把TOTP导出来
 
