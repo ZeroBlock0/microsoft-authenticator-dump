@@ -1,6 +1,6 @@
 # microsoft-authenticator-dump
 
-把TOTP导出来
+导出TOTP
 
 1. Microsoft Authenticator 中的2FA密钥数据存储路径为 /data/data/com.azure.authenticator/databases/PhoneFactor
 2. PhoneFactor 文件本身是Sqlite数据库文件，所以复制文件时候需要复制PhoneFactor PhoneFactor-shm PhoneFactor-wal 这三个文件（如果有），可以通过Sqlite数据库操作软件来查看具体的数据信息。想要的数据就在 accounts 表中。
